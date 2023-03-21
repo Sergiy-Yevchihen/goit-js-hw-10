@@ -10,6 +10,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-color: aquamarine;
+ 
+
 }
 
 #search-box {
@@ -17,4 +20,35 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: 3px solid rgba(103, 65, 173, 0.5);
+  border-radius: 3px;
+  background-color: rgba(69, 81, 92, 0.3);
+  margin-left: 20px;
+}
+
+#search-box:focus {
+  outline: none;
+  border: 3px solid rgba(11, 211, 61, 0.9);
+}
+
+img {
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+p {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
 }
